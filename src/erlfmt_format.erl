@@ -45,7 +45,7 @@
     fold_doc/2
 ]).
 
--define(INDENT, 4).
+-define(INDENT, 2).
 
 -spec to_algebra(erlfmt_parse:any_node()) -> erlfmt_algebra:doc().
 to_algebra({shebang, Meta, String}) ->
